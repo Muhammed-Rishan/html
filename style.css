@@ -203,3 +203,9 @@ nav{
     text-decoration: none;
     font-size: 17px;
   }
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+  }
