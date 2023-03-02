@@ -55,6 +55,7 @@
         </ul>
 <hr>
     <i><h1 id="HTML elements">HTML Formatting Elements</h1></i>
+
         <ul>
             <li><strong>strong text</strong></li>     
             <li><b>bold text</b></li>
@@ -84,7 +85,7 @@
 
 
       <table>
-        
+
            <tr>
                <th>Tag </th>
                <th>Description </th>
@@ -123,8 +124,10 @@
 
         <h1 id="form">Form</h1>
 
-          <form action="">
-            <div>
+           <form action="">
+            <fieldset>
+                <legend>Registration Form</legend>
+              <div>
                 <label for="">Name :</label>
                 <input type="text" value=""> <br>
                 <label for="" >Phone :</label>
@@ -184,14 +187,32 @@
 
 
       </form>
+           </fieldset>
 
+<hr>
 
-<!-- <div>
-    <h1>Media files</h1>
+ <div>
+    <h1>Multimedia</h1>
       <div>
-        <audio src="media/aud_file.mp3"><a href="media/aud_file.mp3"></a> click me</audio>
+        <video width="320" height="240" controls>
+                <source src="media/mov_bbb.mp4" type="video/mp4">
+
+       </video>
       </div>
-</div> -->
+      
+      <div>
+        <audio controls>
+         
+            <source src="media/music.mp3" type="audio/mpeg">
+
+          </audio>
+      </div>
+
+      <div>
+        <iframe width="440" height="315" src="https://www.youtube.com/embed/qz0aGYrrlhU">
+</iframe>
+      </div>
+</div> 
          
 </body>
 </html>
